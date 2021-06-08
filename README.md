@@ -1,114 +1,361 @@
-# The Hacker-Blog theme
+# al-folio
 
-*Hacker-Blog is a minimalistic, responsive jekyll theme built for hackers. It is based on the [hacker theme](https://github.com/pages-themes/hacker) for project pages.*
+[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
+[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
+[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alshedivat/al-folio)
+![GitHub](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)
+[![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
+[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
+[![support](https://img.shields.io/badge/support-Ko--fi-yellow.svg)](https://ko-fi.com/alshedivat)
 
-Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker-blog)
+A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
+If you like the theme, give it a star!
 
-### Included
+[![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
-1. Pagination
-2. SEO tags
-3. Archive Page
-4. About Page
-5. RSS (`https://base-url/atom`)
-6. Sitemap (`https://base-url/sitemap`)
-7. Google Analytics (optional)
 
-## Usage
+## User community
 
-1. Fork and Clone this repository
-2. Customize your blog
-3. Add a new post in `_posts/` directory with proper name format (as shown in placeholder posts)
-4. Commit and push to master on a repository named `<githubusername.github.io>`.
-5. Visit `<githubusername>.github.io`
+The vibrant community of **al-folio** users is growing!
+Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
+Check out the community webpages below.
+Feel free to add your own page(s) by sending a PR.
 
-## Local Build
+<table>
+<tr>
+<td>Academics</td>
+<td>
+<a href="http://maruan.alshedivat.com" target="_blank">★</a>
+<a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
+<a href="https://maithraraghu.com" target="_blank">★</a>
+<a href="http://platanois.org" target="_blank">★</a>
+<a href="https://otiliastr.github.io" target="_blank">★</a>
+<a href="https://www.maths.dur.ac.uk/~sxwc62/" target="_blank">★</a>
+<a href="http://jessachandler.com/" target="_blank">★</a>
+<a href="https://mayankm96.github.io/" target="_blank">★</a>
+<a href="https://markdean.info/" target="_blank">★</a>
+<a href="https://kakodkar.github.io/" target="_blank">★</a>
+<a href="https://sahirbhatnagar.com/" target="_blank">★</a>
+<a href="https://spd.gr/" target="_blank">★</a>
+<a href="https://jay-sarkar.github.io/" target="_blank">★</a>
+<a href="https://aborowska.github.io/" target="_blank">★</a>
+<a href="https://aditisgh.github.io/" target="_blank">★</a>
+<a href="https://alexhaydock.co.uk/" target="_blank">★</a>
+<a href="https://alixkeener.net/" target="_blank">★</a>
+<a href="https://andreea7b.github.io/" target="_blank">★</a>
+<a href="https://rishabhjoshi.github.io/" target="_blank">★</a>
+<a href="https://sheelabhadra.github.io/" target="_blank">★</a>
+<a href="https://giograno.me/" target="_blank">★</a>
+<a href="https://immsrini.github.io/" target="_blank">★</a>
+<a href="https://apooladian.github.io/" target="_blank">★</a>
+<a href="https://chinmoy-dutta.github.io/" target="_blank">★</a>
+<a href="https://liamcli.com/" target="_blank">★</a>
+<a href="https://yoonholee.com/" target="_blank">★</a>
+<a href="https://zrqiao.github.io/" target="_blank">★</a>
+<a href="https://abstractgeek.github.io/" target="_blank">★</a>
+<a href="https://www.compphys.de/" target="_blank">★</a>
 
-If you want to see the changes before pushing the blog to Github, do a local build.
+</td>
+</tr>
+<tr>
+<td>Labs</td>
+<td>
+<a href="https://www.haylab.caltech.edu/" target="_blank">★</a>
+<a href="https://sjkimlab.github.io/" target="_blank">★</a>
+<a href="https://systemconsultantgroup.github.io/scg-folio/" target="_blank">★</a>
+<a href="https://decisionlab.ucsf.edu/" target="_blank">★</a>
+<a href="https://programming-group.com/" target="_blank">★</a>
+</td>
+</tr>
+<tr>
+<td>Courses</td>
+<td>
+CMU PGM (<a href="https://sailinglab.github.io/pgm-spring-2019/" target="_blank">S-19</a>) <br>
+CMU DeepRL (<a href="https://cmudeeprl.github.io/703website_f19/" target="_blank">F-19</a>, <a href="https://cmudeeprl.github.io/Spring202010403website/" target="_blank">S-20</a>, <a href="https://cmudeeprl.github.io/703website/" target="_blank">F-20</a>) <br>
+CMU MMML (<a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2020/" target="_blank">F-20</a>) <br>
+CMU Distributed Systems (<a href="https://andrew.cmu.edu/course/15-440/" target="_blank">S-21</a>)
+</td>
+</tr>
+<tr>
+<td>Conferences & workshops</td>
+<td>
+ML Retrospectives (NeurIPS: <a href="https://ml-retrospectives.github.io/neurips2019/" target="_blank">2019</a>, <a href="https://ml-retrospectives.github.io/neurips2020/" target="_blank">2020</a>; ICML: <a href="https://ml-retrospectives.github.io/icml2020/" target="_blank">2020</a>) <br>
+HAMLETS (NeurIPS: <a href="https://hamlets-workshop.github.io/" target="_blank">2020</a>) <br>
+ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" target="_blank">2020</a>) <br>
+Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target="_blank">2021</a>)
+</td>
+</tr>
+</table>
 
-1. [`gem install jekyll`](https://jekyllrb.com/docs/installation/#install-with-rubygems)
-2. `gem install jekyll-seo-tag`
-3. `gem install jekyll-paginate`
-4. `gem install jekyll-sitemap`
-5. (`cd` to the blog directory, then:) `jekyll serve --watch --port 8000`
-6. Go to `http://0.0.0.0:8000/` in your web browser.
 
-*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
+## Getting started
 
-### Local build using docker
+For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
+Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+
+
+### Installation
+
+#### Local setup
+
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
 
 ```bash
-docker run --rm -p 8000:8000 \
-  --volume="LOCATION_OF_YOUR_JEKYLL_BLOG:/srv/jekyll" \
-  -it tocttou/jekyll:3.5 \
-  jekyll serve --watch --port 8000
+$ git clone git@github.com:<your-username>/<your-repo-name>.git
+$ cd <your-repo-name>
+$ bundle install
+$ bundle exec jekyll serve
 ```
 
-Replace `LOCATION_OF_YOUR_JEKYLL_BLOG` with the full path of your blog repository. Visit `http://localhost:8000/` to access the blog.
+Now, feel free to customize the theme however you like (don't forget to change the name!).
+After you are done, **commit** your final changes.
 
-*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
+#### Deployment
 
-## Customizing
+Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
+Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
 
-### Configuration variables
+**For project pages (default):**
 
-Edit the `_config.yml` file and set the following variables:
+- Make changes, commit, and push!
+- After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
+- The `master` branch should be used for the source code of your webpage and `gh-pages` branch (will be created on the first deployment) will be used for deployment.
 
-```yml
-title: [The title of your blog]
-description: [A short description of your blog's purpose]
-author:
-  name: [Your name]
-  email: [Your email address]
-  url: [URL of your website]
+**For personal and organization webpages:**
+- Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
+- Click on **Actions** tab and **Enable GitHub Actions**; you no need to worry about creating any workflows as everything has already been set for you.
+- In the **Settings**, select **Branches** and [rename the branch](https://docs.github.com/en/github/administering-a-repository/renaming-a-branch) with the source code from `master` to `source`. From now on, this will be your default branch. Any changes you make should be committed and pushed to this branch.
+- Make sure the `url` and `baseurl` fields in `_config.yml` are empty.
+- Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
+- Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `source` branch, your repository should now have a newly built `master` branch.
+- Finally, again in the **Settings**, in the Pages section, set the branch to `master` (**NOT** to `source`).
 
-baseurl: [The base url for this blog.]
+**NOTE**: you **must** do all your changes in the `source` branch (the one you used to push) **NOT the master** one; this last one is used for **deploying** by Github Pages and it is not suitable for pushing changes.
 
-paginate: [Number of posts in one paginated section (default: 3)]
-owner: [Your name]
-year: [Current Year]
+<details><summary><strong>Manual deployment to GitHub Pages:</strong></summary>
+
+If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
+```bash
+$ ./bin/deploy [--user]
+```
+uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
+Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
+
+</details>
+
+<details><summary><strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
+
+If you decide to not use GitHub Pages and host your page elsewhere, simply run:
+```bash
+$ bundle exec jekyll build
+```
+which will (re-)generate the static webpage in the `_site/` folder.
+Then simply copy the contents of the `_site/` foder to your hosting server.
+
+**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank.
+
+</details>
+
+<details><summary><strong>Deployment to a separate repository (advanced users only):</strong></summary>
+
+**Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
+
+Let's assume that your website's publishing source is a `publishing-source` sub-directory of a git-versioned repository cloned under `$HOME/repo/`.
+For a user site this could well be something like `$HOME/<user>.github.io`.
+
+Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
+
+Then from the website sources dir (commonly your al-folio fork's clone):
+```bash
+$ bundle exec jekyll build --destination $HOME/repo/publishing-source
 ```
 
-*Note: All links in the site are prepended with `baseurl`. Default `baseurl` is `/`. Any other baseurl can be setup like `baseurl: /hacker-blog`, which makes the site available at `http://domain.name/hacker-blog`.*
+This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
 
-Additionally, you may choose to set the following optional variables:
+**Note:** Jekyll will clean `$HOME/repo/publishing-source` before building!
 
-```yml
-google_analytics: [Your Google Analytics tracking ID]
+The quote below is taken directly from the [jekyll configuration docs](https://jekyllrb.com/docs/configuration/options/):
+
+> Destination folders are cleaned on site builds
+>
+> The contents of `<destination>` are automatically cleaned, by default, when the site is built. Files or folders that are not created by your site will be removed. Some files could be retained by specifying them within the `<keep_files>` configuration directive.
+>
+> Do not use an important location for `<destination>`; instead, use it as a staging area and copy files from there to your web server.
+
+If `$HOME/repo/publishing-source` contains files that you want jekyll to leave untouched, specify them under `keep_files` in `_config.yml`.
+In its default configuration, al-folio will copy the top-level `README.md` to the publishing source. If you want to change this behaviour, add `README.md` under `exclude` in `_config.yml`.
+
+**Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
+
+</details>
+
+#### Upgrading from a previous version
+
+If you installed **al-folio** as described above, you can upgrade to the latest version as follows:
+
+```bash
+# Assuming the current directory is <your-repo-name>
+$ git remote add upstream https://github.com/alshedivat/al-folio.git
+$ git fetch upstream
+$ git rebase upstream/v0.3.5
 ```
 
-### About Page
+If you have extensively customized a previous version, it might be trickier to upgrade.
+You can still follow the steps above, but `git rebase` may result in merge conflicts that must be resolved.
+See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
+If rebasing is too complicated, we recommend to re-install the new version of the theme from scratch and port over your content and changes from the previous version manually.
 
-Edit `about.md`
+### FAQ
 
-### Layout
+Here are some frequently asked questions.
+If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
 
-If you would like to modify the site style:
+1. **Q:** After I fork and setup the repo, I get a deployment error.
+   Isn't the website supposed to correctly deploy automatically? <br>
+   **A:** Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit.
+   Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
+   Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment) in the previous section.
+   (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
 
-**HTML**
+2. **Q:** I am using a custom domain (e.g., `foo.com`).
+   My custom domain becomes blank in the repository settings after each deployment.
+   How do I fix that? <br>
+   **A:** You need to add `CNAME` file to the `master` or `source` branch of your repository.
+   The file should contain your custom domain name.
+   (Relevant issue: [130](https://github.com/alshedivat/al-folio/issues/130).)
 
-Footer: Edit `_includes/footer.html`
+3. **Q:** My webpage works locally.
+    But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
+    How do I fix that? <br>
+   **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
+   If you are deploying a personal or organization website to GitHub Pages, leave both fields blank.
+   If you are deploying a project page to GitHub Pages, leave `url` blank and set `baseurl: /<your-project-name>/`.
+   Generally, if you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`.
 
-Header: Edit `_includes/header.html`
+## Features
 
-Links in the header: Edit `_includes/links.html`
+### Publications
 
-Meta tags, blog title display, and additional CSS: Edit `_includes/head.html`
+Your publications page is generated automatically from your BibTex bibliography.
+Simply edit `_bibliography/papers.bib`.
+You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
-Index page layout: Edit `_layouts/default.html`
+<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/publications-screenshot.png" width=800></p>
 
-Post layout: Edit `_layouts/post.html`
+<details><summary><strong>Author annotation:</strong></summary>
 
-**CSS**
+In publications, the author entry for yourself is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
+```
+scholar:
+  last_name: Einstein
+  first_name: [Albert, A.]
+```
+If the entry matches the last name and one form of the first names, it will be underlined.
+Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
+The coauthor data format in `_data/coauthors.yml` is as follows,
+```
+"Adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-Site wide CSS: Edit `_sass/base.scss`
+"Podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-Custom CSS: Make `_sass/custom.scss` and use it. Then add `@import "custom";` to `css/main.scss`
+"Rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-**404 page**
+"Bach":
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
-Edit `404.md`
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+```
+If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
+
+</details>
+
+
+### Collections
+
+This Jekyll theme implements `collections` to let you break up your work into categories.
+The theme comes with two default collections: `news` and `projects`.
+Items from the `news` collection are automatically displayed on the home page.
+Items from the `projects` collection are displayed on a responsive grid on projects page.
+
+<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/projects-screenshot.png" width=700></p>
+
+You can easily create your own collections, apps, short stories, courses, or whatever your creative work is.
+To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
+
+
+### Layouts
+
+**al-folio** comes with stylish layouts for pages and blog posts.
+
+#### The iconic style of Distill
+
+The theme allows you to create blog posts in the [distill.pub](https://distill.pub/) style:
+
+<p align="center"><a href="https://alshedivat.github.io/al-folio/blog/2018/distill/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/distill-screenshot.png" width=700></a></p>
+
+For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/al-folio/blog/2018/distill/).
+
+#### Full support for math & code
+
+**al-folio** supports fast math typesetting through [KaTeX](https://katex.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
+
+<p align="center">
+<a href="https://alshedivat.github.io/al-folio/blog/2015/math/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/math-screenshot.png" width=400></a>
+<a href="https://alshedivat.github.io/al-folio/blog/2015/code/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/code-screenshot.png" width=400></a>
+</p>
+
+#### Photos
+
+Photo formatting is made simple using [Bootstrap's grid system](https://getbootstrap.com/docs/4.4/layout/grid/).
+Easily create beautiful grids within your blog posts and project pages:
+
+<p align="center">
+  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
+    <img src="assets/img/photos-screenshot.png" width="75%">
+  </a>
+</p>
+
+
+### Other features
+
+#### Theming
+Six beautiful theme colors have been selected to choose from.
+The default is purple, but you can quickly change it by editing `$theme-color` variable in the `_sass/_themes.scss` file.
+Other color variables are listed there as well.
+
+#### Social media previews
+**al-folio** supports preview images on social media.
+To enable this functionality you will need to set `serve_og_meta` to `true` in your `_config.yml`.
+Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
+
+You will then need to configure what image to display in your site's social media previews.
+This can be configured on a per-page basis, by setting the `og_image` page variable.
+If for an individual page this variable is not set, then the theme will fall back to a site-wide `og_image` variable, configurable in your `_config.yml`.
+In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
+
+
+## Contributing
+
+Contributions to al-folio are very welcome!
+Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
+
+If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
+For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
+
 
 ## License
 
-CC0 1.0 Universal
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
+Since then, it got a full re-write of the styles and many additional cool features.
