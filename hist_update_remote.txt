@@ -1,0 +1,500 @@
+   35  ls
+   36  mkdir data
+   37  mv plots/ data
+   38  mv transfer-master-04_28_21_* data
+   39  ls
+   40  mkdir test
+   41  cd test
+   42  ls
+   43  pip install pdf2pptx
+   44  ls
+   45  cp ~/Desktop/Quals/Oral/Present/Quals_Presentation.pdf ./
+   46  pdf2pptx Quals_Presentation.pdf 
+   47  ls
+   48  history > pdf2pptx_hist.txt
+   49  ls
+   50  cd Desktop/Q2
+   51  ls
+   52  cd submit/
+   53  ls
+   54  cd bcobb33_qual
+   55  ls
+   56  cd bcobb33_qual_artifact/
+   57  ls
+   58  cd Report/
+   59  ls
+   60  git diff
+   61  ls
+   62  git diff
+   63  git status
+   64  git add  bcobb33_quals_report_2.pdf
+   65  git status
+   66  git diff
+   67  git diff --cached
+   68  git diff
+   69  git status
+   70  git add ../README.md 
+   71  git diff
+   72  git diff --cached
+   73  git status
+   74  git log
+   75  git commit -m "Found and fixed several more typos in report"
+   76  git log
+   77  git log
+   78  git push
+   79  pwd
+   80  cd ../
+   81  ls
+   82  cd ..
+   83  ls
+   84  cd test/
+   85  ls
+   86  cd bcobb33_qual_artifact/
+   87  ls
+   88  git pull
+   89  git log
+   90  cd
+   91  ls
+   92  cd Desktop/Misc./
+   93  ls
+   94  git clone https://gitlab.com/Ben_Cobb/transfer.git
+   95  cd transfer/
+   96  ls
+   97  cp ~/Desktop/Q2/present/ppt/Q2_presentation_template.pptx ./
+   98  git add Q2_presentation_template.pptx 
+   99  git commit -m "quals presentation backup"
+  100  git push
+  101  ls
+  102  pwd
+  103  cd ../../Q2
+  104  ls
+  105  cd present/
+  106  ls
+  107  cd Q2_presentation/
+  108  sl
+  109  ls
+  110  cd ../ppt
+  111  ls
+  112  git add Q2_presentation_template.pptx 
+  113  ls
+  114  git init
+  115  git add Q2_presentation_template.pptx 
+  116  git status
+  117  git commit -m "initial commit"
+  118  git status
+  119  git add  Q2_presentation_template.pptx
+  120  git status
+  121  git commit -m "updated ppt"
+  122  git status
+  123  git add Q2_presentation_template.pptx 
+  124  git log
+  125  git diff HEAD..HEAD~1
+  126  git status
+  127  git commit -m "more modifications"
+  128  git add Q2_presentation_template.pptx
+  129  git status
+  130  git commit -m "made graphs bigger"
+  131  git status
+  132  git add Q2_presentation_template.pptx
+  133  git commit -m "added part of packing diagram"
+  134  ls
+  135  ssh srn
+  136  ls
+  137  ssh srn
+  138  pwd
+  139  ls
+  140  ls src
+  141  ls src/mpi/
+  142  ls src/mpi/drivers/
+  143  c src/mpi/drivers/TuckerMPI_sthosvd.cpp 
+  144  code src/mpi/drivers/TuckerMPI_sthosvd.cpp 
+  145  ls
+  146  code CMakeLists.txt 
+  147  ls
+  148  cd Desktop/Code/GENTEN/
+  149  l
+  150  ls
+  151  git clone https://gitlab.com/tensors/genten.git
+  152  ls
+  153  cd Desktop/Internship/
+  154  ls
+  155  git status
+  156  git log
+  157  git checkout a52385b1bed1b86430aa2a6ffb0b836658b49075
+  158  git branch
+  159  ls
+  160  git log
+  161  git branch
+  162  git checkout master
+  163  ls
+  164  git status
+  165  git log
+  166  git diff HEAD~1..HEAD
+  167  git checkout HEAD~1
+  168  ls
+  169  mkdir old
+  170  cp Ben_Cobb_resume_git.pdf old/
+  171  ls
+  172  git status
+  173  git add  Ben_Cobb_resume_git.docx Ben_Cobb_resume_git.pdf
+  174  git status
+  175  git commit -m "updated resume to reflect spring'21 grades and PhD status"
+  176  git log
+  177  git checkout HEAD~1
+  178  git branch
+  179  git checkout master
+  180  ssh srn
+  181  ssh srn
+  182  cd Desktop/DND/
+  183  ls
+  184  cd DND
+  185  sl
+  186  ls
+  187  mkdir character_backstory
+  188  cd character_backstory/
+  189  ls
+  190  vim Mystique.txt
+  191  ssh srn
+  192  ssh srn
+  193  ls
+  194  ls website/
+  195  ls website/ben-cobb.github.io/
+  196  cd Desktop/
+  197  ls
+  198  find ./ -name website
+  199  find ./ -name ben-cobb.github.io
+  200  ls Website/
+  201  cd Website/
+  202  ls
+  203  ls ben-cobb.github.io/
+  204  ls test
+  205  cd test/ben-cobb.github.io/
+  206  ls
+  207  git branch
+  208  git pull
+  209  find ./ -name index.html
+  210  pwd
+  211  ls
+  212  ls _site
+  213  pwd
+  214  ls
+  215  vim index.md 
+  216  cd ..
+  217  ls
+  218  mkdir hello_world
+  219  cd hello_world/
+  220  ls
+  221  vim index.html
+  222  pwd
+  223  cd ..
+  224  ls
+  225  cd ben-cobb.github.io/
+  226  ls
+  227  cd _site
+  228  ls
+  229  pwd
+  230  git branch
+  231  git checkout gh-pages
+  232  ls
+  233  cd ..
+  234  ls
+  235  ls blog/
+  236  checkout source
+  237  git checkout source
+  238  ls
+  239  git checkout jekyll_source
+  240  ls
+  241  pwd
+  242  ls
+  243  bundle exec jekyll serve
+  244  ls
+  245  cd ..
+  246  ls
+  247  git clone https://github.com/Asterix9000/Asterix9000.github.io.git
+  248  ls
+  249  cd Asterix9000.github.io/
+  250  ls
+  251  vim index.html
+  252  pwd
+  253  ls
+  254  git status
+  255  git add index.html 
+  256  git status
+  257  git commit -m "initial commit"
+  258  git push
+  259  git origin
+  260  git upstream
+  261  git pull
+  262  git status
+  263  git log
+  264  git push
+  265  ls
+  266  cd Desktop/
+  267  ls
+  268  cd Code/
+  269  ls
+  270  cd C:C++
+  271  ls
+  272  mkdir In_Place_Transpose
+  273  ls
+  274  cd In_Place_Transpose/
+  275  ls
+  276  code trans.cpp
+  277  ls
+  278  g++ trans.cpp 
+  279  ls
+  280  g++ trans.cpp 
+  281  gcc trans.cpp 
+  282  which g++
+  283  xcode-select --install
+  284  g++ trans.cpp 
+  285  ls
+  286  ./a.out 
+  287  ./a.out 
+  288  g++ trans.cpp 
+  289  mkdir rust
+  290  cd rust/
+  291  ls
+  292  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  293  env | grep rust
+  294  source $HOME/.cargo/env
+  295  env | grep rust
+  296  env | grep RUST
+  297  env
+  298  echo $RUSTUP_HOME
+  299  cd ..
+  300  ls
+  301  g++ trans.cpp 
+  302  code trans.hpp
+  303  g++ trans.cpp 
+  304  git status
+  305  git init
+  306  git add trans.*
+  307  git status
+  308  git commit -m "initial commit"
+  309  g++ trans.cpp 
+  310  g++ trans.cpp trans.hpp 
+  311  ls
+  312  g++ -c trans.cpp 
+  313  ls
+  314  g++ trans.o 
+  315  rm *.o
+  316  ls
+  317  ls
+  318  rm *.gch
+  319  ls
+  320  g++ trans.cpp 
+  321  ls
+  322  ./a.out 
+  323  git status
+  324  git add -u
+  325  ls
+  326  g++ trans.cpp 
+  327  ./a.out 
+  328  g++ trans.cpp 
+  329  g++ trans.cpp 
+  330  ./a.out 
+  331  g++ trans.cpp 
+  332  ./a.out 
+  333  git status
+  334  git add -u
+  335  git commit -m "moved into .cpp and .hpp files"
+  336  g++ trans.cpp 
+  337  ./a.out 
+  338  g++ trans.cpp 
+  339  ./a.out 
+  340  g++ trans.cpp 
+  341  ./a.out 
+  342  g++ trans.cpp 
+  343  ./a.out 
+  344  g++ trans.cpp 
+  345  ./a.out 
+  346  g++ trans.cpp 
+  347  ./a.out 
+  348  g++ trans.cpp 
+  349  ./a.out 
+  350  g++ trans.cpp 
+  351  ./a.out 
+  352  g++ trans.cpp 
+  353  ./a.out 
+  354  g++ trans.cpp 
+  355  ./a.out 
+  356  git status
+  357  git add -u 
+  358  git status
+  359  git commit -m "successfully finds cycles"
+  360  g++ trans.cpp 
+  361  ./a.out 
+  362  g++ trans.cpp 
+  363  ./a.out 
+  364  g++ trans.cpp 
+  365  ./a.out 
+  366  g++ trans.cpp 
+  367  ./a.out 
+  368  g++ trans.cpp 
+  369  ./a.out 
+  370  g++ trans.cpp 
+  371  ./a.out 
+  372  git status
+  373  git add -u
+  374  g++ trans.cpp 
+  375  g++ trans.cpp 
+  376  g++ trans.cpp 
+  377  g++ trans.cpp 
+  378  ./a.out 
+  379  git status
+  380  g++ trans.cpp 
+  381  ./a.out 
+  382  g++ trans.cpp 
+  383  g++ trans.cpp 
+  384  g++ trans.cpp 
+  385  g++ trans.cpp 
+  386  ./a.out 
+  387  g++ trans.cpp 
+  388  ./a.out 
+  389  g++ trans.cpp 
+  390  ./a.out 
+  391  git status
+  392  git add -u
+  393  git status
+  394  git log
+  395  q
+  396  git commit -m successfully transposes test matrix 
+  397  git commit -m "successfully transposes test matrix "
+  398  git log
+  399  ./a.out 
+  400  git stattus
+  401  git status
+  402  git diff
+  403  g++ trans.cpp 
+  404  g++ trans.cpp 
+  405  g++ trans.cpp 
+  406  ./a.out 
+  407  g++ trans.cpp 
+  408  ./a.out 
+  409  g++ trans.cpp 
+  410  ./a.out 
+  411  g++ trans.cpp 
+  412  ./a.out 
+  413  g++ trans.cpp 
+  414  ./a.out 
+  415  g++ trans.cpp 
+  416  ./a.out 
+  417  g++ trans.cpp 
+  418  ./a.out 
+  419  g++ trans.cpp 
+  420  ./a.out 
+  421  g++ trans.cpp 
+  422  ./a.out 
+  423  git status
+  424  git diff
+  425  git add -u
+  426  git status
+  427  git commit -m "implemented in-place transpose using p_inv"
+  428  git status
+  429  m
+  430  g++ trans.cpp 
+  431  ls
+  432  g++ trans.cpp 
+  433  g++ trans.cpp 
+  434  g++ trans.cpp 
+  435  ./a.out 
+  436  g++ trans.cpp 
+  437  ./a.out 
+  438  pwd
+  439  cd ..
+  440  ls
+  441  cd -
+  442  pwd
+  443  cd ..
+  444  ls
+  445  mkdir valgrind
+  446  cd valgrind/
+  447  git clone https://github.com/KDE/massif-visualizer.git
+  448  ls
+  449  cd massif-visualizer/
+  450  ls
+  451  mkdir build
+  452  cd build/
+  453  ls
+  454  which cmake
+  455  cmake -v
+  456  cmake --v
+  457  cmake
+  458  cmake --version
+  459  cmake ..
+  460  cmake --version
+  461  source ~/.bashrc
+  462  cmake --version
+  463  cmake ..
+  464  export ECM_DIR=pwd
+  465  export ECM_DIR=/Users/bencobb/.local/extra-cmake-modules/install/share/ECM/cmake/ECMConfig
+  466  cmake ..
+  467  cmake --version
+  468  ls
+  469  pwd
+  470  vim build_script.sh
+  471  vim build_script.sh 
+  472  ls
+  473  chmod 755 build_script.sh 
+  474  ls
+  475  ./build_script.sh 
+  476  which boost
+  477  pwd
+  478  ls
+  479  brew install KF5
+  480  brew install kde-mac
+  481  brew install kde-mac/kde/kf5-kitemmodels
+  482  brew install kde-mac/kde/
+  483  brew install kde-mac/kde
+  484  brew install kde-mac/kde/kf5-kcoreaddons
+  485  pwd
+  486  ls
+  487  ./build_script.sh 
+  488  brew untap kde-mac/kde 2> /dev/null
+  489  brew tap kde-mac/kde https://invent.kde.org/packaging/homebrew-kde.git --force-auto-update
+  490  "$(brew --repo kde-mac/kde)/tools/do-caveats.sh"
+  491  brew untap kde-mac/kde 2> /dev/null
+  492  brew tap kde-mac/kde https://invent.kde.org/packaging/homebrew-kde.git --force-auto-update
+  493  "$(brew --repo kde-mac/kde)/tools/do-caveats.sh"
+  494  brew install kde-mac/kde/kf5-attica
+  495  pwd
+  496  brew install extra-cmake-modules
+  497  ./build_script.sh 
+  498  brew untap kde-mac/kde 2> /dev/null
+  499  brew tap kde-mac/kde https://invent.kde.org/packaging/homebrew-kde.git --force-auto-update
+  500  ls
+  501  cd Desktop/Website/
+  502  ls
+  503  ls test
+  504  cd test
+  505  ls
+  506  ls
+  507  cd Asterix9000.github.io/
+  508  ls
+  509  pwd
+  510  ls
+  511  cat index.html 
+  512  git push
+  513  git config --local -e
+  514  git push
+  515  git remote set-url origin https://github.com/Asterix9000/Asterix9000.github.io.git Asterix9000
+  516  git push
+  517  ls
+  518  ls -a
+  519  ls .git
+  520  vim .git/config 
+  521  git config --add user.email rodgerrodger00@gmail.com
+  522  pwd
+  523  git remote -v
+  524  git push
+  525  source ~/.ssh/config 
+  526  git push
+  527  ssh-add -D
+  528  git push
+  529  ssh-add ~/.ssh/id_rsa_user2
+  530  git push
+  531  git remote set-url origin git@github.com-user2:Asterix9000/Asterix9000.github.io.git
+  532  git push
+  533  ls
+  534  history >> hist_update_remote.txt
