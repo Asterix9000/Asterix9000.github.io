@@ -1,0 +1,500 @@
+   53  git log
+   54  git push
+   55  ls
+   56  cd Desktop/
+   57  ls
+   58  cd Code/
+   59  ls
+   60  cd C:C++
+   61  ls
+   62  mkdir In_Place_Transpose
+   63  ls
+   64  cd In_Place_Transpose/
+   65  ls
+   66  code trans.cpp
+   67  ls
+   68  g++ trans.cpp 
+   69  ls
+   70  g++ trans.cpp 
+   71  gcc trans.cpp 
+   72  which g++
+   73  xcode-select --install
+   74  g++ trans.cpp 
+   75  ls
+   76  ./a.out 
+   77  ./a.out 
+   78  g++ trans.cpp 
+   79  mkdir rust
+   80  cd rust/
+   81  ls
+   82  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   83  env | grep rust
+   84  source $HOME/.cargo/env
+   85  env | grep rust
+   86  env | grep RUST
+   87  env
+   88  echo $RUSTUP_HOME
+   89  cd ..
+   90  ls
+   91  g++ trans.cpp 
+   92  code trans.hpp
+   93  g++ trans.cpp 
+   94  git status
+   95  git init
+   96  git add trans.*
+   97  git status
+   98  git commit -m "initial commit"
+   99  g++ trans.cpp 
+  100  g++ trans.cpp trans.hpp 
+  101  ls
+  102  g++ -c trans.cpp 
+  103  ls
+  104  g++ trans.o 
+  105  rm *.o
+  106  ls
+  107  ls
+  108  rm *.gch
+  109  ls
+  110  g++ trans.cpp 
+  111  ls
+  112  ./a.out 
+  113  git status
+  114  git add -u
+  115  ls
+  116  g++ trans.cpp 
+  117  ./a.out 
+  118  g++ trans.cpp 
+  119  g++ trans.cpp 
+  120  ./a.out 
+  121  g++ trans.cpp 
+  122  ./a.out 
+  123  git status
+  124  git add -u
+  125  git commit -m "moved into .cpp and .hpp files"
+  126  g++ trans.cpp 
+  127  ./a.out 
+  128  g++ trans.cpp 
+  129  ./a.out 
+  130  g++ trans.cpp 
+  131  ./a.out 
+  132  g++ trans.cpp 
+  133  ./a.out 
+  134  g++ trans.cpp 
+  135  ./a.out 
+  136  g++ trans.cpp 
+  137  ./a.out 
+  138  g++ trans.cpp 
+  139  ./a.out 
+  140  g++ trans.cpp 
+  141  ./a.out 
+  142  g++ trans.cpp 
+  143  ./a.out 
+  144  g++ trans.cpp 
+  145  ./a.out 
+  146  git status
+  147  git add -u 
+  148  git status
+  149  git commit -m "successfully finds cycles"
+  150  g++ trans.cpp 
+  151  ./a.out 
+  152  g++ trans.cpp 
+  153  ./a.out 
+  154  g++ trans.cpp 
+  155  ./a.out 
+  156  g++ trans.cpp 
+  157  ./a.out 
+  158  g++ trans.cpp 
+  159  ./a.out 
+  160  g++ trans.cpp 
+  161  ./a.out 
+  162  git status
+  163  git add -u
+  164  g++ trans.cpp 
+  165  g++ trans.cpp 
+  166  g++ trans.cpp 
+  167  g++ trans.cpp 
+  168  ./a.out 
+  169  git status
+  170  g++ trans.cpp 
+  171  ./a.out 
+  172  g++ trans.cpp 
+  173  g++ trans.cpp 
+  174  g++ trans.cpp 
+  175  g++ trans.cpp 
+  176  ./a.out 
+  177  g++ trans.cpp 
+  178  ./a.out 
+  179  g++ trans.cpp 
+  180  ./a.out 
+  181  git status
+  182  git add -u
+  183  git status
+  184  git log
+  185  q
+  186  git commit -m successfully transposes test matrix 
+  187  git commit -m "successfully transposes test matrix "
+  188  git log
+  189  ./a.out 
+  190  git stattus
+  191  git status
+  192  git diff
+  193  g++ trans.cpp 
+  194  g++ trans.cpp 
+  195  g++ trans.cpp 
+  196  ./a.out 
+  197  g++ trans.cpp 
+  198  ./a.out 
+  199  g++ trans.cpp 
+  200  ./a.out 
+  201  g++ trans.cpp 
+  202  ./a.out 
+  203  g++ trans.cpp 
+  204  ./a.out 
+  205  g++ trans.cpp 
+  206  ./a.out 
+  207  g++ trans.cpp 
+  208  ./a.out 
+  209  g++ trans.cpp 
+  210  ./a.out 
+  211  g++ trans.cpp 
+  212  ./a.out 
+  213  git status
+  214  git diff
+  215  git add -u
+  216  git status
+  217  git commit -m "implemented in-place transpose using p_inv"
+  218  git status
+  219  m
+  220  g++ trans.cpp 
+  221  ls
+  222  g++ trans.cpp 
+  223  g++ trans.cpp 
+  224  g++ trans.cpp 
+  225  ./a.out 
+  226  g++ trans.cpp 
+  227  ./a.out 
+  228  pwd
+  229  cd ..
+  230  ls
+  231  cd -
+  232  pwd
+  233  cd ..
+  234  ls
+  235  mkdir valgrind
+  236  cd valgrind/
+  237  git clone https://github.com/KDE/massif-visualizer.git
+  238  ls
+  239  cd massif-visualizer/
+  240  ls
+  241  mkdir build
+  242  cd build/
+  243  ls
+  244  which cmake
+  245  cmake -v
+  246  cmake --v
+  247  cmake
+  248  cmake --version
+  249  cmake ..
+  250  cmake --version
+  251  source ~/.bashrc
+  252  cmake --version
+  253  cmake ..
+  254  export ECM_DIR=pwd
+  255  export ECM_DIR=/Users/bencobb/.local/extra-cmake-modules/install/share/ECM/cmake/ECMConfig
+  256  cmake ..
+  257  cmake --version
+  258  ls
+  259  pwd
+  260  vim build_script.sh
+  261  vim build_script.sh 
+  262  ls
+  263  chmod 755 build_script.sh 
+  264  ls
+  265  ./build_script.sh 
+  266  which boost
+  267  pwd
+  268  ls
+  269  brew install KF5
+  270  brew install kde-mac
+  271  brew install kde-mac/kde/kf5-kitemmodels
+  272  brew install kde-mac/kde/
+  273  brew install kde-mac/kde
+  274  brew install kde-mac/kde/kf5-kcoreaddons
+  275  pwd
+  276  ls
+  277  ./build_script.sh 
+  278  brew untap kde-mac/kde 2> /dev/null
+  279  brew tap kde-mac/kde https://invent.kde.org/packaging/homebrew-kde.git --force-auto-update
+  280  "$(brew --repo kde-mac/kde)/tools/do-caveats.sh"
+  281  brew untap kde-mac/kde 2> /dev/null
+  282  brew tap kde-mac/kde https://invent.kde.org/packaging/homebrew-kde.git --force-auto-update
+  283  "$(brew --repo kde-mac/kde)/tools/do-caveats.sh"
+  284  brew install kde-mac/kde/kf5-attica
+  285  pwd
+  286  brew install extra-cmake-modules
+  287  ./build_script.sh 
+  288  brew untap kde-mac/kde 2> /dev/null
+  289  brew tap kde-mac/kde https://invent.kde.org/packaging/homebrew-kde.git --force-auto-update
+  290  pwd
+  291  ls
+  292  find ./ -name massif_graph.py
+  293  cd
+  294  cd Desktop/Projects/
+  295  ls
+  296  git clone https://gitlab.com/Ben_Cobb/plot.git
+  297  cd plot
+  298  ls
+  299  source /opt/intel/oneapi/intelpython/latest/envs/2021.1.1/bin/activate
+  300  conda activate /opt/intel/oneapi/intelpython/latest/envs/2021.1.1
+  301  cd
+  302  ls
+  303  cd .local/
+  304  ls
+  305  ls virtualenv/
+  306  source virtualenv/bin/activate
+  307  exit
+  308  source /opt/intel/oneapi/intelpython/latest/envs/2021.1.1/bin/activate
+  309  conda activate /opt/intel/oneapi/intelpython/latest/envs/2021.1.1
+  310  cd
+  311  cd .local/
+  312  ls
+  313  pwd
+  314  cd ..
+  315  ls
+  316  vim .bashrc 
+  317  ls
+  318  code combined/hosvd_bench.py 
+  319  cd massif/
+  320  ls
+  321  ls
+  322  python3 massif_graph.py 
+  323  git status
+  324  git add -u
+  325  ls
+  326  mv output/ data
+  327  ls
+  328  git status
+  329  git add -u
+  330  git status
+  331  git add data
+  332  git status
+  333  mkdir output
+  334  ls
+  335  git status
+  336  rm -r output
+  337  ls
+  338  git status
+  339  git commit -m "extracted mem footprint sizes. rename output to data. starting to generate plots"
+  340  git log
+  341  python3 massif_graph.py 
+  342  alias
+  343  ls
+  344  pwd
+  345  source ~/.bashrc 
+  346  alias
+  347  act_venv 
+  348  ls
+  349  python3 massif_graph.py 
+  350  ls
+  351  python3 massif_graph.py 
+  352  ls
+  353  mkdir output
+  354  python3 massif_graph.py 
+  355  ls
+  356  ls output/
+  357  ls
+  358  code data/massif.out.15227
+  359  python3 massif_graph.py 
+  360  python3 massif_graph.py 
+  361  python3 massif_graph.py 
+  362  ls
+  363  git status
+  364  git add -u
+  365  ls
+  366  git status
+  367  git status
+  368  python3 massif_graph.py 
+  369  python3 massif_graph.py 
+  370  python3 massif_graph.py 
+  371  python3 massif_graph.py 
+  372  python3 massif_graph.py 
+  373  python3 massif_graph.py 
+  374  git status
+  375  git diff --cahced
+  376  git diff --cached
+  377  git commit -m "creating plot"
+  378  git status
+  379  git add -u
+  380  python3 massif_graph.py 
+  381  git status
+  382  git diff --cached
+  383  git commit -m "changing axis sizes"
+  384  git status
+  385  git add -u
+  386  python3 massif_graph.py 
+  387  python3 massif_graph.py 
+  388  python3 massif_graph.py 
+  389  ls
+  390  git status
+  391  git diff
+  392  git diff --cached
+  393  git status
+  394  git add -u
+  395  git status
+  396  git commit -m "recast entries as ints to properly generate graph. different method for setting size of graph"
+  397  git status
+  398  git log
+  399  git push
+  400  ls
+  401  python3 massif_graph.py 
+  402  code massif_graph.py 
+  403  code output/massif.out.15227
+  404  python3 massif_graph.py 
+  405  python3 massif_graph.py 
+  406  python3 massif_graph.py 
+  407  python3 massif_graph.py 
+  408  python3 massif_graph.py 
+  409  python3 massif_graph.py 
+  410  python3 massif_graph.py 
+  411  python3 massif_graph.py 
+  412  python3 massif_graph.py 
+  413  python3 massif_graph.py 
+  414  python3 massif_graph.py 
+  415  python3 massif_graph.py 
+  416  python3 massif_graph.py 
+  417  python3 massif_graph.py 
+  418  python3 massif_graph.py 
+  419  python3 massif_graph.py 
+  420  python3 massif_graph.py 
+  421  python3 massif_graph.py 
+  422  ls ..
+  423  code ../binary/hosvd_bench.py 
+  424  ls
+  425  cd Desktop/Website/
+  426  ls
+  427  ls test
+  428  cd test
+  429  ls
+  430  ls
+  431  cd Asterix9000.github.io/
+  432  ls
+  433  pwd
+  434  ls
+  435  cat index.html 
+  436  git push
+  437  git config --local -e
+  438  git push
+  439  git remote set-url origin https://github.com/Asterix9000/Asterix9000.github.io.git Asterix9000
+  440  git push
+  441  ls
+  442  ls -a
+  443  ls .git
+  444  vim .git/config 
+  445  git config --add user.email rodgerrodger00@gmail.com
+  446  pwd
+  447  git remote -v
+  448  git push
+  449  source ~/.ssh/config 
+  450  git push
+  451  ssh-add -D
+  452  git push
+  453  ssh-add ~/.ssh/id_rsa_user2
+  454  git push
+  455  git remote set-url origin git@github.com-user2:Asterix9000/Asterix9000.github.io.git
+  456  git push
+  457  ls
+  458  history >> hist_update_remote.txt
+  459  ls
+  460  pwd
+  461  ls
+  462  code CNAME
+  463  git status
+  464  git add CNAME 
+  465  git status
+  466  git commit -m "added CNAME file"
+  467  git push
+  468  git pull
+  469  git log
+  470  git push
+  471  pwd
+  472  pwd
+  473  ls
+  474  code .git/config 
+  475  cd
+  476  cd .ssh
+  477  ks
+  478  ls
+  479  code config 
+  480  ls -al
+  481  code known_hosts 
+  482  ls
+  483  cat id_rsa
+  484  cat id_rsa.pub 
+  485  ls
+  486  ls
+  487  mkdir backup
+  488  cp * backup/
+  489  ls
+  490  ls backup/
+  491  ssh-keygen -t rsa -C "rodgerrodger00@gmail.com" -f "id_rsa_user2"
+  492  ls
+  493  which pbcopy
+  494  pbcopy < id_rsa.pub 
+  495  pbcopy < id_rsa_user2.pub 
+  496  eval "$(ssh-agent -s)"
+  497  ssh-add id_rsa
+  498  ssh-add id_rsa_user2
+  499  history >> hist_add_second_github.txt
+  500  pwd
+  501  cd ..
+  502  ls
+  503  cd Asterix9000.github.io/
+  504  ls
+  505  git log
+  506  git pull
+  507  ls
+  508  git branch
+  509  git branch -b test
+  510  git checkout -b test
+  511  git branch
+  512  cp -r /Users/bencobb/Desktop/Website/hacker-blog/* ./
+  513  ls
+  514  jekyll serve --watch --port 6000
+  515  jekyll serve --watch --port 8000
+  516  ls
+  517  git status
+  518  git branch
+  519  git add *
+  520  ls
+  521  git status
+  522  git restore --staged *
+  523  ls
+  524  git status
+  525  git reset
+  526  git status
+  527  ls
+  528  git add _includes/ 404.md _layouts/ _posts/  _sass/ assets/ css/ README.md _config.yml about.md archive.md atom.xml index.html   license.md robots.txt
+  529  git status
+  530  code hist_update_remote.txt 
+  531  git diff hist_update_remote.txt 
+  532  git add hist_update_remote.txt 
+  533  git status
+  534  ls
+  535  ls _posts
+  536  code _posts/2017-12-12-Sample-Page.md 
+  537  code _posts/2021-05-07-21-TEST.md
+  538  git status
+  539  git add _posts/2021-05-07-21-TEST.md 
+  540  git status
+  541  git log
+  542  git branch
+  543  git commit -m "new branch to test out hacker theme"
+  544  code robots.txt 
+  545  git push
+  546  git push --set-upstream origin test
+  547  ls
+  548  jekyll serve 
+  549  ls
+  550  mkdir hist
+  551  mv hist_update_remote.txt hist
+  552  history >> hist/hist_deploy.txt
